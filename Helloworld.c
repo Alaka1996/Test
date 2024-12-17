@@ -52,5 +52,5 @@ int main()
     print_data(sensor_data,BUFFER_SIZE);
     
  free(sensor_data);
- return 0;
+ return 1;
 }
